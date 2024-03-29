@@ -1,0 +1,48 @@
+<div class="container">
+  <h1>Contact us</h1>
+  <hr>
+  <row class="row justify-content-start">
+
+    <div class="row mb-3" id="name-container">
+      <div class="col-4">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col-4">
+        <label for="last-name" class="form-label"><br></label>
+        <input id="last-name" type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-4">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+    </div>
+    <div class="mb-3">
+      <div class="col-8">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#submitMessage">Submit</button>
+    </div>
+
+    <div class="modal fade" id="submitMessage" tabindex="-1" aria-labelledby="submitMessageLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Submitted</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Thank you for your message, we will contact you soon.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </row>
+</div>

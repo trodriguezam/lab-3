@@ -1,0 +1,17 @@
+#navbar {
+    background-color: rgb(41 153 193) !important;
+}
+
+#footer-container {
+    height: 87px;
+    z-index: 999;
+    background-color: white;
+}
+
+#c2 {
+    max-width: 900px;
+}
+
+#message {
+    resize: none;
+}
